@@ -172,7 +172,7 @@ export default {
   get statusBarColor() {
     return color(this.toolbarDefaultBg)
       .darken(0.2)
-      .hexString();
+      .string();
   },
 
   // Icon
