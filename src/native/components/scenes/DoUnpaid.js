@@ -7,7 +7,6 @@ import { Actions } from 'react-native-router-flux';
 import Loading from '../Loading';
 import Messages from '../Messages';
 import Spacer from '../Spacer';
-import logoImg from '../../../images/logo.png';
 import { logout } from '../../../actions/user';
 
 class DoUnpaid extends Component {
