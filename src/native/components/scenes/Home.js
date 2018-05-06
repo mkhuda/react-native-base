@@ -51,58 +51,58 @@ class Home extends React.Component {
     return (
       <Container style={styles.backgroundtomato}>
         <Content padder>
-        <View style={styles.container}>
+          <View style={styles.container}>
 
-          <View style={styles.containerhome}>
-            <View style={styles.outercolumn}>
+            <View style={styles.containerhome}>
+              <View style={styles.outercolumn}>
 
-              <View style={styles.innerrow}>
-                <View style={styles.innercolumn}>
+                <View style={styles.innerrow}>
+                  <View style={styles.innercolumn}>
 
                     <View style={styles.rowspace}>
                       <View style={styles.rowcard}>
                         <TouchableOpacity style={styles.touchable} onPress={() => this._handleGo('customer')}>
-                          <Icon name='ios-contacts' style={styles.iconhome} />
+                          <Icon name="ios-contacts" style={styles.iconhome} />
                         </TouchableOpacity>
                         <Text>Customer</Text>
                       </View>
                     </View>
 
+                  </View>
                 </View>
-              </View>
-              <View style={styles.innerrow}>
-                <View style={styles.innercolumn}>
+                <View style={styles.innerrow}>
+                  <View style={styles.innercolumn}>
 
                     <View style={styles.rowspace}>
                       <View style={styles.rowcard}>
                         <TouchableOpacity style={styles.touchable} onPress={() => this._handleGo('paydon')}>
-                          <Icon name='ios-checkmark-circle' style={styles.iconhome} />
+                          <Icon name="ios-checkmark-circle" style={styles.iconhome} />
                         </TouchableOpacity>
                         <Text>Payplan Done</Text>
                       </View>
                     </View>
 
+                  </View>
                 </View>
-              </View>
 
-              <View style={styles.innerrow}>
-                <View style={styles.innercolumn}>
+                <View style={styles.innerrow}>
+                  <View style={styles.innercolumn}>
 
                     <View style={styles.rowspace}>
                       <View style={styles.rowcard}>
                         <TouchableOpacity style={styles.touchable} onPress={() => this._handleGo('doca')}>
-                          <Icon name='ios-cash' style={styles.iconhome} />
+                          <Icon name="ios-cash" style={styles.iconhome} />
                         </TouchableOpacity>
                         <Text>DO Cash</Text>
                       </View>
                     </View>
 
+                  </View>
                 </View>
-              </View>
 
+              </View>
             </View>
           </View>
-        </View>
         </Content>
         <Footer style={styles.backgroundtomato}>
           <Button iconLeft transparent block onPress={this._handleLogout}>

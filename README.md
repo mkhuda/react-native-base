@@ -18,3 +18,7 @@
 
 - Run android
 `react-native run-android`
+
+## Todos
+
+- OnEnter for Auth
