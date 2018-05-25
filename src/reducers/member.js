@@ -1,4 +1,4 @@
-import Store from '../store/member';
+import Store from '../store/user';
 
 export const initialState = Store;
 
