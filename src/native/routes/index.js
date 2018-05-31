@@ -8,6 +8,8 @@ import AuthContainer from '../../containers/Auth';
 
 import HomeComponent from '../components/scenes/Home';
 
+import CameraTestComponent from '../components/scenes/CameraTest';
+
 const TRUE = true;
 const Index = (
   <Stack key="mainstack">
@@ -30,6 +32,13 @@ const Index = (
       {...DefaultProps.navbarProps}
       component={HomeComponent}
       type={ActionConst.REPLACE}
+    />
+
+    <Scene
+      hideNavBar
+      key="camera_test"
+      {...DefaultProps.navbarProps}
+      component={CameraTestComponent}
     />
   </Stack>
 );
